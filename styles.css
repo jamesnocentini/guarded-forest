@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-page {
+    position: relative;
+    background: url(images/bg-image.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.main-title {
+    display: inline-block;
+    color: white;
+    padding-left: 40px;
+    width: 48%;
+    font-family: 'Helvetica';
+    font-weight: lighter;
+    line-height: 1.6;
+}
+
+.devices {
+    display: inline-block;
+    width: 48%;
+    position: relative;
+}
+    .devices-img {
+        position: absolute;
+        top: 50%;
+        margin-top: -140px;
+        left: 50%;
+        margin-left: -200px;
+    }
+
+.button {
+    cursor:pointer;
+    border: none;
+}
+
+.chrome-button {
+    background: url(images/chrome-store-label.png);
+    width: 192px;
+    height: 58px;
+}
+
+.apple-button {
+    background: url(images/app-store-label.png);
+    width: 196px;
+    height: 58px;
+}
