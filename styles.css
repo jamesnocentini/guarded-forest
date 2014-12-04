@@ -7,9 +7,8 @@ html, body {
 
 .bg-page {
     position: relative;
-    background: url(images/bg-image.png) no-repeat;
+    /*background: url(images/bg-image.png) no-repeat;*/
     width: 100%;
-    height: 100%;
     background-position: center;
     background-size: cover;
     padding-top: 100px;
@@ -17,24 +16,27 @@ html, body {
 
 .main-title {
     display: inline-block;
-    color: white;
-    padding-left: 40px;
+    vertical-align: middle;
+    color: black;
     width: 48%;
     font-family: 'Helvetica';
     font-weight: lighter;
     line-height: 1.6;
+    text-align: right;
 }
 
 .devices {
     display: inline-block;
+    vertical-align: middle;
     width: 48%;
+    height: 400px;
     position: relative;
 }
     .devices-img {
         position: absolute;
         top: 50%;
-        margin-top: -140px;
         left: 50%;
+        margin-top: -130px;
         margin-left: -200px;
     }
 
@@ -44,6 +46,7 @@ html, body {
 }
 
 .chrome-button {
+    display: block;
     background: url(images/chrome-store-label.png);
     width: 192px;
     height: 58px;
